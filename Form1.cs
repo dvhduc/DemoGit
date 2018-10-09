@@ -15,5 +15,11 @@ namespace DemoGit
         {
             InitializeComponent();
         }
+
+        private void btnadd_Click(object sender, EventArgs e)
+        {
+            int a = int.Parse(txt1.Text);
+            int b = int.Parse(txt2.Text);
+        }
     }
 }
